@@ -1,0 +1,122 @@
+
+
+      header {
+      	font-family: future, helvetica, san-serif;
+      	text-align: center;
+      	margin-bottom: 40px;
+      }
+
+      ul {
+      	padding: 10px; 
+      	background-color: rgba(0, 0, 0, 80);
+      }
+
+      ul.social {
+            background-color: rgba(62, 7, 129, 70);
+            padding: 25px 25px opx 25px;
+            width: 600px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+      }
+
+      li {
+      	display: inline;font-size:
+      	font-size: 20px;
+      	color: white;
+        padding: 0px 10px 0px 10px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .socialmedia {
+            font-size: 14px;
+            color: rgb(68, 7, 129);
+            background-color: rgb(255, 255, 255, 0);
+            padding: 0px 10px 0px 10px;
+            text-align: center;
+      }
+
+      a {
+      	color: rgb(255, 255, 255);
+      }
+
+      a.class1 {
+      	color: rgb(68, 7, 129);
+      }
+
+      h1 {
+      	font-family: Garamond, Times, serif;
+        text-align: center;
+        color: rgb(68, 7, 129);
+        font-size: 42px;
+        font-weight: bold;
+      }
+
+      h2 {
+      	font-family: Futura, Helvetica, san-serif;
+      	font-size: 20px;
+      	font-weight: bold;
+      	color: rgb(68, 7, 129);
+      	margin-top: -15px;
+      	padding: 10px 40px 0px 40px;
+      	text-align: center;
+      }
+      h3 {
+        font-family: Futura, Helvetica, san-serif;
+      	font-size: 16px;
+      	font-weight: 100;
+      	color: rgb(0, 0, 0,);
+      	margin-top: -15px;
+      }
+
+      h4 {
+      	font-family: Futura, Helvetica, san-serif;
+      	font-size: 18px;
+      	font-weight: bold;
+      	color: rgb(0, 0, 0,);
+      	padding: 0px 40px 0px 40px;
+      	margin-bottom -20px;
+      }
+
+      hr {
+      	width: 60%;
+      	margin-left: auto;
+      	margin-right: auto;
+      	margin-bottom: 20px;
+      	height: 6px;
+      	background-color: #7851a9;
+      	color: #7851a9;
+      	border: 0 none;
+      }
+
+      p {
+      	font-family: Futura, Helvetica, san-serif;
+      	font-weight: normal;
+      	font-size: 16px;
+      	color: darkslategray;
+      	padding: 0px 40px 0px 40px;
+      	line-height: 1.5;
+      }
+      img {
+      	display: block;
+      	margin-left: auto;
+      	margin-right: auto;
+      }
+
+      div {
+      	margin-bottom: 75px;
+      }
+
+      footer {
+      	font-family: Futura, Helvetica, san-serif;
+      	font-weight: bold;
+      	font-size: 16px;
+      	line-height: 1.5;
+      	color: rgb(68, 7, 129);
+      	text-align: center;
+      	margin-left: auto;
+      	margin-right: auto;
+      	padding: 0px, 40px, 25px, 40px;
+      }

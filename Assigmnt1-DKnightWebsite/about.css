@@ -1,0 +1,93 @@
+
+
+body {
+      	background-image: url("dkaboutbackground.jpg");
+      	background-size: cover;
+      	background-position: center top;
+      }
+      header {
+      	font-family: future, helvetica, san-serif;
+      	text-align: center;
+      }
+
+      ul {
+      	padding: 10px;
+      	background-color: rgba(0, 0, 0, 80);
+      }
+
+      ul.social {
+            background-color: rgba(62, 7, 129, 70);
+            padding: 25px 25px opx 25px;
+            width: 600px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+      }
+
+      li {
+      	display: inline;font-size:
+      	font-size: 20px;
+      	color: white;
+            padding: 0px 10px 0px 10px;
+
+      }
+
+      .socialmedia {
+            font-size: 14px;
+            color: rgb(68, 7, 129);
+            background-color: rgb(255, 255, 255, 0);
+            padding: 0px 10px 0px 10px;
+            text-align: center;
+      }
+
+      a {
+      	color: rgb(255, 255, 255);
+      }
+
+      a.class1 {
+            color: rgb(68, 7, 129);
+      }
+
+      h1 {
+      	font-family: Garamond, Times, serif;
+        text-align: center;
+        color: rgb(68, 7, 129);
+        font-size: 54px;
+        font-weight: bold;
+      }
+
+      h2 {
+      	font-family: Futura, Helvetica, san-serif;
+      	font-size: 16px;
+      	font-weight: 100;
+      	color: rgb(0, 0, 0,);
+      	margin-top: -35px;
+      }
+
+      hr {
+      	width: 60%;
+      	margin-left: auto;
+      	margin-right: auto;
+      	height: 6px;
+      	background-color: #7851a9;
+      	color: #7851a9;
+      	border: 0 none;
+      }
+
+      p {
+      	font-family: Futura, Helvetica, san-serif;
+      	font-weight: normal;
+      	font-size: 16px;
+      	color: darkslategray;
+      	padding: 0px 40px 0px 40px;
+      	line-height: 1.5;
+      }
+
+      footer {
+      	font-family: Futura, Helvetica, san-serif;
+      	font-weight: bold;
+      	font-size: 24px;
+      	line-height: 1.5;
+      	color: rgb(68, 7, 129);
+      	text-align: center;
+      }
