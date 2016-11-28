@@ -1,0 +1,300 @@
+/*
+Project Name: Relaxr Blog Page
+Client: General Assembly
+Author: Debra Knight
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 16px;
+     line-height: 1.4;
+     font-family: Open Sans, sans-serif;
+     font-weight: 300;
+     width: 100%;
+     margin: auto;
+     background-color: #f0efef;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+
+header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #033048;
+  overflow: auto;
+}
+
+.container {
+  width: 960px;
+  margin: auto;
+}
+
+nav {
+  padding-top: 40px;
+  float: right;
+  width: 650px;
+}
+
+div.background {
+  background-color: #f0efef;
+  height: 1740px;
+}
+
+div.posts {
+  height: 1740px;
+  width: 700px;
+  float: left;
+}
+
+div.misc {
+  height: 620px;
+  width: 240px;
+  float: right;
+  padding-top: 40px;
+}
+
+div.ads {
+  width: 240px;
+  height: 1040px;
+  float: right;
+  clear: bottom;
+}
+
+div.yelobar {
+  height: 100px;
+  width: 100%
+  margin: auto;
+  background-color: #f9e42e;
+  text-align: center;
+  padding-top: 40px;
+}
+
+section {
+  margin-top: 20px;
+}
+
+footer {
+  width: 100%;
+  height: 250px;
+  background-color: #121212;
+  text-align: center;
+  margin-left: auto;
+  margin-top: -35px;
+  margin-bottom: auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+img.blog {
+  width: 700px;
+}
+
+#advert {
+  width: 240px;
+  height: 500px;
+  float: right;
+}
+
+#head {
+  font-weight: 800;
+  color: white;
+  float: left;
+  font-size: 48px;
+}
+
+#foot {
+  font-weight: 800;
+  font-size: 48px;
+  text-align: center;
+  padding-top: 30px;
+  color: #f9e42e;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 40px;
+  text-align: left;
+  color: #033048;
+  }
+
+p.misctitles {
+  font-size: 32px;
+  font-weight: 800;
+  color: #033048;
+  text-align: left;
+  margin-bottom: -15px;
+}
+
+nav ul li {
+  display: inline;
+  padding-left: 20px;
+}
+
+nav ul li a {
+  color: #f9e42e;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+nav ul li a:hover {
+  color:  #ff6347;
+}
+
+article {
+  margin-top: 10px;
+  height: 800px;
+  border-bottom: 2px solid #033048;
+}
+
+article.next {
+  height: 840px;
+  padding-top: 10px;
+}
+
+article p {
+  font-size: 24px;
+  font-weight: 200;
+  text-align: left;
+  color: #606161;
+}
+
+article p::first-letter {
+  float: left;
+  width: 30px;
+  color: #606161;
+  font-size: 110px;
+  line-height: 90px;
+  padding-top: 1px;
+  padding-right: 8px;
+  font-weight: 300px;
+}
+
+a.read_more {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: right;
+  text-decoration: none;
+  color: #033048;
+  float: right;
+}
+
+a.read_more:hover {
+  color: #ff6347;
+  text-decoration: underline;
+}
+
+section ul li a.topic {
+  font-size: 24px;
+  font-weight: 200;
+  color: #033048;
+  text-align: left;
+  text-decoration: none;
+  padding-left: 0;
+}
+
+a.topic:hover {
+  color: #ff6347;
+  text-decoration: underline;
+}
+  
+section p {
+  font-size: 22px;
+  font-weight: 200;
+  text-align: left;
+  color: #033048;
+}
+
+#learnmore {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: left;
+  text-decoration: none;
+  color: #033048;
+}
+
+#learnmore:hover {
+  color: #ff6347;
+  text-decoration: underline;
+}
+
+a.signup {
+  font-height: 12px;
+  color: white;
+  font-weight: 800;
+  padding-top: 15px;
+  padding-right: 80px;
+  padding-bottom: 15px;
+  padding-left: 80px;
+  background-color: #033048;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#copyright {
+  font-size: 9px;
+  color: white;
+  text-align: center;
+}
+
+li.social{
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
+
+
+
